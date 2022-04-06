@@ -1,0 +1,121 @@
+@media screen and (max-width:1200px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .right {
+        width: 100%;
+        margin-top: 37px;
+    }
+    .left img {
+        width: 15vw;
+    }
+    .right ul {
+        justify-content: center;
+    }
+    .right ul li a {
+        padding: 10px;
+        overflow: hidden;
+        font-size: 1.8rem;
+    }
+    .banner {
+        margin-top: 30px;
+    }
+    .about-us {
+        padding: 40px;
+    }
+    .about-flex img {
+        display: none;
+    }
+    .updates img {
+        display: none;
+    }
+    .about-us h1 {
+        padding-bottom: 20px;
+    }
+    .updates {
+        padding: 40px
+    }
+    .updates h1 {
+        padding-bottom: 20px;
+    }
+    .stay-connected h1 {
+        font-size: 1.5rem;
+        padding-left: 2px;
+        margin-right: 10px;
+    }
+    .stay-connected-flex {
+        padding-left: 10px;
+    }
+    footer div.contact-details h1 {
+        font-size: 2.2rem;
+    }
+    .session-left {
+        margin-right: 12px;
+    }
+    .session-right {
+        margin-left: 12px;
+    }
+    .stay-connected h1 {
+        margin-right: 60px;
+    }
+    .stay-connected-flex {
+        padding-left: 68px;
+    }
+    .form-main {
+        padding-left: 220px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .stay-connected h1 {
+        font-size: 1.4rem;
+        margin-right: 30px;
+    }
+    .stay-connected-flex {
+        padding-left: 30px;
+    }
+    .session-flex {
+        flex-direction: column;
+    }
+    .session-left {
+        margin-bottom: 50px;
+    }
+    .form-main {
+        padding-left: 50px;
+    }
+    .form div.form-main input {
+        width: 90%;
+    }
+    .form div.form-main textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:820) {
+    .stay-connected h1 {
+        margin-right: 18px;
+    }
+    .stay-connected-flex {
+        padding-left: 21px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .right ul li a {
+        font-size: 1.1rem;
+    }
+    .about-us h1 {
+        font-size: 2rem
+    }
+    .about-us p {
+        font-size: 1.2rem;
+        padding: 0
+    }
+    .updates h1 {
+        font-size: 2rem
+    }
+    .updates p {
+        font-size: 1.2rem;
+        padding: 0
+    }
+}

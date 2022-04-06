@@ -1,0 +1,599 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav.navbar {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left img {
+    width: 5vw;
+    transition: 0.5s;
+}
+
+
+/* .left img:hover {
+    transform: scale(1.1);
+} */
+
+.right {
+    width: 30%;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right ul li {
+    font-family: var(--font-1);
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: all 170ms ease-in-out;
+}
+
+.right ul li a {
+    color: #000;
+    text-decoration: none;
+    /* letter-spacing: 1px; */
+}
+
+.right ul li:hover {
+    transform: translateY(-0.6rem) scale(1.08);
+    letter-spacing: 1.8px;
+}
+
+.banner {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.banner img {
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.content {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3.2rem;
+}
+
+.about-us {
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: var(--box-shadow-2);
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-flex img {
+    width: 20vw;
+}
+
+.about-flex p {
+    font-size: 1.3rem;
+    font-family: var(--font-2);
+    padding: 0 30px;
+}
+
+.updates {
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: var(--box-shadow-2);
+}
+
+.updates-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.updates-flex img {
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.updates-flex p {
+    font-size: 1.3rem;
+    font-family: var(--font-2);
+    padding: 0 30px;
+}
+
+.updates h1 {
+    margin-bottom: 20px;
+}
+
+div.stay-connected {
+    /* background-color: darkcyan; */
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 16px;
+    box-shadow: var(--box-shadow);
+    max-width: 50vw;
+    margin: 40px auto 10px auto;
+}
+
+
+/* .stay-connected-flex:before {
+    content: "Click to follow us";
+    position: relative;
+    top: -14px;
+    left: 100px;
+    font-size: 2.7rem;
+    font-family: var(--font-2);
+    font-weight: bold;
+}
+
+
+.stay-connected {
+    background-color: #00B5F5;
+}
+
+.stay-connected-flex:hover:before {
+    cursor: pointer;
+} */
+
+.stay-connected h1 {
+    font-size: 2.6rem;
+    font-family: var(--font-1);
+    margin-right: 40px;
+    /* border: none;
+    background: transparent; */
+}
+
+.stay-connected-flex {
+    border-left: 2px solid rgb(92, 90, 90);
+    padding-left: 40px;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+
+.stay-connected-flex li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.stay-connected-flex i {
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 2rem;
+    transition: all 200ms ease-out;
+}
+
+.stay-connected-flex a {
+    display: inline-block;
+}
+
+.stay-connected-flex a:before {
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #00B5F5, #002A8F);
+    transition: all 200ms ease-out;
+}
+
+.stay-connected-flex a:hover:before {
+    transform: scale(0);
+    transition: all 200ms ease-in;
+}
+
+.stay-connected-flex a:hover i {
+    color: #00B5F5;
+    transform: scale(1.5);
+    background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 200ms ease-in;
+}
+
+
+/* #youtube {
+    width: 4vw;
+    transition: all 0.6s;
+}
+
+#youtube:hover {
+    transform: scale(1.1);
+}
+
+#facebook {
+    width: 4vw;
+    transition: all 0.6s;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+}
+
+#instagram {
+    width: 4vw;
+    transition: all 0.6s;
+}
+
+#instagram:hover {
+    transform: scale(1.1);
+} */
+
+footer {
+    /* background-color: chocolate; */
+    margin-top: 20px;
+    padding: 30px 0;
+    border-radius: 16px;
+    /* border-top: 1px solid black; */
+    box-shadow: var(--box-shadow);
+}
+
+footer div.contact-details {
+    text-align: center;
+}
+
+footer div.contact-details h1 {
+    font-size: 2.2rem;
+    font-family: var(--font-3);
+    margin-bottom: 15px;
+}
+
+footer div.contact-details p {
+    font-size: 1.1rem;
+    font-family: var(--font-2);
+}
+
+footer div.copyright {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    font-family: var(--font-2);
+}
+
+footer div.social-logos {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.social-logos li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 0.5em;
+}
+
+.social-logos i {
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-size: 1rem;
+    transition: all 200ms ease-out;
+}
+
+.stay.social-logos a {
+    display: inline-block;
+}
+
+.social-logos a:before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #00B5F5, #002A8F);
+    transition: all 200ms ease-out;
+}
+
+.social-logos a:hover:before {
+    transform: scale(0);
+    transition: all 200ms ease-in;
+}
+
+.social-logos a:hover i {
+    color: #00B5F5;
+    transform: scale(1.5);
+    background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 200ms ease-in;
+}
+
+
+/* footer div.social-logos a img {
+    width: 2vw;
+} */
+
+.session-content {
+    text-align: center;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+}
+
+.session-content h1 {
+    margin-bottom: 30px;
+}
+
+.class-btn {
+    /* background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); */
+    background: linear-gradient(#00B5F5, #002A8F);
+    transition: all ease-in-out 0.8s
+}
+
+.class-btn:hover {
+    transform: translateX(-0.5rem);
+}
+
+button.class-btn {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 16px;
+    border: none;
+    margin-top: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+button.class-btn:hover {
+    padding-right: 22px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+button.class-btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+button.class-btn:after {
+    content: '»';
+    color: #fff;
+    position: absolute;
+    opacity: 0;
+    /* transition: all ease-in-out 0.5s; */
+}
+
+button.class-btn:hover:after {
+    opacity: 1;
+    position: relative;
+    left: 8px;
+}
+
+.session-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* .music-singles-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.music-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.music-singles a button.class-btn {
+    position: relative;
+    left: 859px;
+    top: -30px;
+}
+
+.music-singles h1 {
+    font-family: var(--font-2);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.music-singles iframe {
+    margin: 53px;
+}
+
+.intro-heading {
+    background: url(../Images/Prayer\ REq\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-2);
+}
+
+.intro-heading h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-4);
+}
+
+div.prayer-intro {
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: var(--box-shadow-2);
+    border-radius: 10px;
+}
+
+div.prayer-intro p {
+    font-size: 1.5rem;
+    font-family: var(--font-1);
+    padding: 34px;
+}
+
+.form {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 40px;
+    /* box-shadow: var(--box-shadow); */
+    /* border-radius: 10px; */
+}
+
+.form-main {
+    text-align: left;
+    /* border: 2px solid black; */
+    padding: 40px 0;
+    padding-left: 300px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.form-main form label {
+    font-size: 1.3rem;
+    font-family: var(--font-2);
+}
+
+.form div.form-main input {
+    font-size: 1.2rem;
+    font-family: var(--font-2);
+    padding: 5px;
+    /* border-radius: 10px; */
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+
+/* .form div.form-main label.radio {
+    position: relative;
+    top: 10px;
+} */
+
+.form div.form-main textarea {
+    font-size: 1.2rem;
+    font-family: var(--font-2);
+    padding: 5px;
+    /* border-radius: 10px; */
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.form .form-main button.class-btn {
+    font-size: 1.2rem;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-family: var(--font-2);
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(#00B5F5, #2551b6);
+    border: none;
+    margin-top: 24px;
+    transition: all 200ms ease-in-out;
+}
+
+.form-main button.class-btn:hover {
+    padding-right: 18px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.form-main button.class-btn:after {
+    content: '»';
+    color: #fff;
+    position: absolute;
+    right: 8px;
+    opacity: 0;
+    /* transition: all 200ms ease-in; */
+}
+
+.form-main button.class-btn:hover:after {
+    opacity: 1;
+    position: relative;
+    left: 8px;
+}
+
+.form-main button:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+#radio-yes {
+    position: relative;
+    left: -242px;
+    top: 8px;
+    margin-bottom: 14px;
+}
+
+#radio-no {
+    position: relative;
+    left: -242px;
+    top: 8px;
+}
+
+.radio-label {
+    position: relative;
+    left: -474px;
+    top: 9px;
+}
+
+div.prayer-guidelines {
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: var(--box-shadow-2);
+    border-radius: 10px;
+}
+
+div.prayer-guidelines h1 {
+    text-align: left;
+    padding: 40px 0 0 40px;
+}
+
+div.prayer-guidelines p {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: var(--font-1);
+    padding: 20px 40px 40px 40px;
+}
+
+.register-img {
+    height: 20vh;
+    background: url(https://www.hamburg.de/iason/images/611b9182c62f2e728a9484dc/s.768xb/Computerladen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.register-img h1 {
+    font-size: 4rem;
+    position: relative;
+    top: 24px;
+    left: 260px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-4);
+    padding-top: 27px;
+}
